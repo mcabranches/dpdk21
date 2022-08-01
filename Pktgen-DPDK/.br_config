@@ -1,0 +1,157 @@
+#
+# Pktgen 21.11.0 (DPDK 21.11.0)
+# Copyright(c) <2010-2021>, Intel Corporation. All rights reserved., Powered by DPDK
+
+# Command line arguments: (DPDK args are defaults)
+# usr/local/bin/pktgen -c a -n 3 -m 512 --proc-type primary -- -m [3].0 -P 
+
+#######################################################################
+# Pktgen Configuration script information:
+#   GUI socket is Not Enabled
+#   Flags 00000004
+#   Number of ports: 1
+#   Number ports per page: 4
+#   Number descriptors: RX 1024 TX: 2048
+#   Promiscuous mode is Enabled
+
+
+# Global configuration:
+geometry 83x43
+disable mac_from_arp
+
+######################### Port  0 ##################################
+#
+# Port:  0, Burst:128, Rate:0.01%, Flags:00002000, TX Count:Forever
+#           Sequence count:0, Prime:1 VLAN ID:0001, Link: <UP-10000-FD>
+#
+# Set up the primary port information:
+set 0 count 0
+set 0 size 64
+set 0 rate 0.01
+set 0 burst 128
+set 0 sport 1234
+set 0 dport 5678
+set 0 prime 1
+set 0 type ipv4
+set 0 proto udp
+set 0 dst ip 192.168.1.1
+set 0 src ip 192.168.0.1/24
+set 0 tcp flag clr all
+set 0 tcp flag set ack
+set 0 tcp seq 305419896
+set 0 tcp ack 305419920
+set 0 dst mac 00:00:00:00:00:00
+set 0 src mac 90:e2:ba:8b:14:8c
+set 0 vlan 1
+
+set 0 pattern abc
+
+set 0 jitter 50
+disable 0 mpls
+range 0 mpls entry 0x0
+disable 0 qinq
+set 0 qinqids 0 0
+disable 0 gre
+disable 0 gre_eth
+disable 0 vxlan
+set 0 vxlan 0x0 0 0
+#
+# Port flag values:
+disable 0 icmp
+disable 0 pcap
+enable 0 range
+disable 0 latency
+disable 0 process
+disable 0 capture
+disable 0 rx_tap
+disable 0 tx_tap
+disable 0 vlan
+disable 0 rate
+
+#
+# Range packet information:
+range 0 src mac start 10:e2:ba:8b:00:00
+range 0 src mac min 10:e2:ba:8b:00:00
+range 0 src mac max 10:e2:ba:8b:00:64
+range 0 src mac inc 00:00:00:00:00:01
+
+range 0 dst mac start 00:e2:ba:8b:00:00
+range 0 dst mac min 00:e2:ba:8b:00:00
+range 0 dst mac max 00:e2:ba:8b:00:64
+range 0 dst mac inc 00:00:00:00:00:01
+
+range 0 src ip start 192.168.0.1
+range 0 src ip min 192.168.0.1
+range 0 src ip max 192.168.0.254
+range 0 src ip inc 0.0.0.0
+
+range 0 dst ip start 192.168.1.1
+range 0 dst ip min 192.168.1.1
+range 0 dst ip max 192.168.1.254
+range 0 dst ip inc 0.0.0.1
+
+range 0 proto tcp
+
+range 0 src port start 1234
+range 0 src port min 0
+range 0 src port max 65535
+range 0 src port inc 1
+
+range 0 dst port start 5678
+range 0 dst port min 0
+range 0 dst port max 65535
+range 0 dst port inc 1
+
+range 0 tcp flag clr all
+range 0 tcp flag set ack
+
+range 0 tcp seq start 305419896
+range 0 tcp seq min 0
+range 0 tcp seq max 4294967295
+range 0 tcp seq inc 0
+
+range 0 tcp ack start 305419920
+range 0 tcp ack min 0
+range 0 tcp ack max 4294967295
+range 0 tcp ack inc 0
+
+range 0 ttl start 64
+range 0 ttl min 0
+range 0 ttl max 255
+range 0 ttl inc 0
+
+range 0 vlan start 1
+range 0 vlan min 1
+range 0 vlan max 4095
+range 0 vlan inc 0
+
+range 0 cos start 0
+range 0 cos min 0
+range 0 cos max 7
+range 0 cos inc 0
+
+range 0 tos start 0
+range 0 tos min 0
+range 0 tos max 255
+range 0 tos inc 0
+range 0 gre key 0
+
+range 0 size start 64
+range 0 size min 64
+range 0 size max 1518
+range 0 size inc 0
+
+#
+# Set up the rate data for the port.
+rate 0 fps 60
+rate 0 lines 720
+rate 0 pixels 1280
+rate 0 color bits 1
+rate 0 payload size 800
+
+rate 0 overhead 0
+#
+# Set up the sequence data for the port.
+set 0 seq_cnt 0
+
+################################ Done #################################

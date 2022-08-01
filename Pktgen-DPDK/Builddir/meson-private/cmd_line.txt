@@ -1,0 +1,7 @@
+[options]
+buildtype = release
+enable_lua = false
+enable_gui = false
+
+[properties]
+

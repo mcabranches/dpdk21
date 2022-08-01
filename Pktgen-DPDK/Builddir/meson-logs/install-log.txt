@@ -1,0 +1,6 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/root/dpdk21/Pktgen-DPDK/usr/local/bin/pktgen
+/root/dpdk21/Pktgen-DPDK/usr/local/bin
+/root/dpdk21/Pktgen-DPDK/usr/local
+/root/dpdk21/Pktgen-DPDK/usr

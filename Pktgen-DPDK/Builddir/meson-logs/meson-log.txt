@@ -1,0 +1,252 @@
+Build started at 2021-12-20T12:56:07.684882
+Main binary: /usr/bin/python3
+Build Options: -Dbuildtype=release -Denable_lua=false -Denable_gui=false
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /root/dpdk21/Pktgen-DPDK
+Build dir: /root/dpdk21/Pktgen-DPDK/Builddir
+Build type: native build
+Program cat found: YES (/bin/cat)
+Running command: /bin/cat /root/dpdk21/Pktgen-DPDK/VERSION
+--- stdout ---
+21.11.0
+
+--- stderr ---
+
+
+Project name: pktgen
+Project version: 21.11.0
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/sanitycheckc.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 9.3.0 "cc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0")
+C linker for the build machine: cc ld.bfd 2.34
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/sanitycheckc.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 9.3.0 "cc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0")
+C linker for the host machine: cc ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpbv_faz1z
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpbv_faz1z/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpbv_faz1z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -mavx: YES 
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp50n74ho0
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp50n74ho0/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp50n74ho0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -mavx2: YES 
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmprq1reaxq
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmprq1reaxq/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmprq1reaxq/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pedantic -Wpedantic 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-pedantic -Wpedantic: YES 
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpt_m21rhq
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpt_m21rhq/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpt_m21rhq/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-truncation -Wformat-truncation 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-format-truncation -Wformat-truncation: YES 
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'libdpdk' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /usr/local/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config --modversion libdpdk` -> 0
+21.11.0
+PKG_CONFIG_PATH: /usr/local/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config --cflags libdpdk` -> 0
+-include rte_config.h -march=native -I/usr/local/include -I/usr/include/libnl3
+PKG_CONFIG_PATH: /usr/local/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config libdpdk --libs` -> 0
+-L/usr/local/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -Wl,--as-needed -lrte_node -lrte_graph -lrte_flow_classify -lrte_pipeline -lrte_table -lrte_pdump -lrte_port -lrte_fib -lrte_ipsec -lrte_vhost -lrte_stack -lrte_security -lrte_sched -lrte_reorder -lrte_rib -lrte_dmadev -lrte_regexdev -lrte_rawdev -lrte_power -lrte_pcapng -lrte_member -lrte_lpm -lrte_latencystats -lrte_kni -lrte_jobstats -lrte_ip_frag -lrte_gso -lrte_gro -lrte_gpudev -lrte_eventdev -lrte_efd -lrte_distributor -lrte_cryptodev -lrte_compressdev -lrte_cfgfile -lrte_bpf -lrte_bitratestats -lrte_bbdev -lrte_acl -lrte_timer -lrte_hash -lrte_metrics -lrte_cmdline -lrte_pci -lrte_ethdev -lrte_meter -lrte_net -lrte_mbuf -lrte_mempool -lrte_rcu -lrte_ring -lrte_eal -lrte_telemetry -lrte_kvargs -lbsd
+PKG_CONFIG_PATH: /usr/local/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config libdpdk --libs` -> 0
+-L/usr/local/lib/x86_64-linux-gnu -Wl,--as-needed -lrte_node -lrte_graph -lrte_flow_classify -lrte_pipeline -lrte_table -lrte_pdump -lrte_port -lrte_fib -lrte_ipsec -lrte_vhost -lrte_stack -lrte_security -lrte_sched -lrte_reorder -lrte_rib -lrte_dmadev -lrte_regexdev -lrte_rawdev -lrte_power -lrte_pcapng -lrte_member -lrte_lpm -lrte_latencystats -lrte_kni -lrte_jobstats -lrte_ip_frag -lrte_gso -lrte_gro -lrte_gpudev -lrte_eventdev -lrte_efd -lrte_distributor -lrte_cryptodev -lrte_compressdev -lrte_cfgfile -lrte_bpf -lrte_bitratestats -lrte_bbdev -lrte_acl -lrte_timer -lrte_hash -lrte_metrics -lrte_cmdline -lrte_pci -lrte_ethdev -lrte_meter -lrte_net -lrte_mbuf -lrte_mempool -lrte_rcu -lrte_ring -lrte_eal -lrte_telemetry -lrte_kvargs -lbsd
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpdkzo7pmg
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpdkzo7pmg/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpdkzo7pmg/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpfhbstf78
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpfhbstf78/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpfhbstf78/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency libdpdk found: YES 21.11.0
+Library librte_net_bond found: YES
+Program python3 found: YES (/usr/bin/python3)
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp55mlkonh
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp55mlkonh/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp55mlkonh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrte_net_i40e -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rte_net_i40e found: YES
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp9hx_3s1l
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp9hx_3s1l/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp9hx_3s1l/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrte_net_ixgbe -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rte_net_ixgbe found: YES
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp4223ygjw
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp4223ygjw/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmp4223ygjw/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrte_net_ice -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rte_net_ice found: YES
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpbq6shkgn
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpbq6shkgn/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpbq6shkgn/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrte_bus_vdev -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rte_bus_vdev found: YES
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmporb5dmct
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmporb5dmct/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmporb5dmct/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lnuma -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library numa found: YES
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmptoxvcdlr
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmptoxvcdlr/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmptoxvcdlr/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lpcap -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library pcap found: YES
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpb_af_mii
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpb_af_mii/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmpb_af_mii/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library dl found: YES
+Running compile:
+Working directory:  /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmppyqcmuoe
+Command line:  cc /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmppyqcmuoe/testfile.c -o /root/dpdk21/Pktgen-DPDK/Builddir/meson-private/tmppyqcmuoe/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Program sphinx-build found: NO
+Build targets in project: 9
+
+Found ninja-1.10.0 at /usr/bin/ninja

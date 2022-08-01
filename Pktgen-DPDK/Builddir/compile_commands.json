@@ -1,0 +1,374 @@
+[
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/copyright_info.c.o' -MF 'lib/common/3d47a30@@common@sta/copyright_info.c.o.d' -o 'lib/common/3d47a30@@common@sta/copyright_info.c.o' -c ../lib/common/copyright_info.c",
+    "file": "../lib/common/copyright_info.c",
+    "output": "lib/common/3d47a30@@common@sta/copyright_info.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/port_config.c.o' -MF 'lib/common/3d47a30@@common@sta/port_config.c.o.d' -o 'lib/common/3d47a30@@common@sta/port_config.c.o' -c ../lib/common/port_config.c",
+    "file": "../lib/common/port_config.c",
+    "output": "lib/common/3d47a30@@common@sta/port_config.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/core_info.c.o' -MF 'lib/common/3d47a30@@common@sta/core_info.c.o.d' -o 'lib/common/3d47a30@@common@sta/core_info.c.o' -c ../lib/common/core_info.c",
+    "file": "../lib/common/core_info.c",
+    "output": "lib/common/3d47a30@@common@sta/core_info.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/cmdline_parse_args.c.o' -MF 'lib/common/3d47a30@@common@sta/cmdline_parse_args.c.o.d' -o 'lib/common/3d47a30@@common@sta/cmdline_parse_args.c.o' -c ../lib/common/cmdline_parse_args.c",
+    "file": "../lib/common/cmdline_parse_args.c",
+    "output": "lib/common/3d47a30@@common@sta/cmdline_parse_args.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/lscpu.c.o' -MF 'lib/common/3d47a30@@common@sta/lscpu.c.o.d' -o 'lib/common/3d47a30@@common@sta/lscpu.c.o' -c ../lib/common/lscpu.c",
+    "file": "../lib/common/lscpu.c",
+    "output": "lib/common/3d47a30@@common@sta/lscpu.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/utils.c.o' -MF 'lib/common/3d47a30@@common@sta/utils.c.o.d' -o 'lib/common/3d47a30@@common@sta/utils.c.o' -c ../lib/common/utils.c",
+    "file": "../lib/common/utils.c",
+    "output": "lib/common/3d47a30@@common@sta/utils.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/coremap.c.o' -MF 'lib/common/3d47a30@@common@sta/coremap.c.o.d' -o 'lib/common/3d47a30@@common@sta/coremap.c.o' -c ../lib/common/coremap.c",
+    "file": "../lib/common/coremap.c",
+    "output": "lib/common/3d47a30@@common@sta/coremap.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/pg_pcap.c.o' -MF 'lib/common/3d47a30@@common@sta/pg_pcap.c.o.d' -o 'lib/common/3d47a30@@common@sta/pg_pcap.c.o' -c ../lib/common/pg_pcap.c",
+    "file": "../lib/common/pg_pcap.c",
+    "output": "lib/common/3d47a30@@common@sta/pg_pcap.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/pg_strings.c.o' -MF 'lib/common/3d47a30@@common@sta/pg_strings.c.o.d' -o 'lib/common/3d47a30@@common@sta/pg_strings.c.o' -c ../lib/common/pg_strings.c",
+    "file": "../lib/common/pg_strings.c",
+    "output": "lib/common/3d47a30@@common@sta/pg_strings.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/cksum.c.o' -MF 'lib/common/3d47a30@@common@sta/cksum.c.o.d' -o 'lib/common/3d47a30@@common@sta/cksum.c.o' -c ../lib/common/cksum.c",
+    "file": "../lib/common/cksum.c",
+    "output": "lib/common/3d47a30@@common@sta/cksum.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/common/3d47a30@@common@sta -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/common/3d47a30@@common@sta/l2p.c.o' -MF 'lib/common/3d47a30@@common@sta/l2p.c.o.d' -o 'lib/common/3d47a30@@common@sta/l2p.c.o' -c ../lib/common/l2p.c",
+    "file": "../lib/common/l2p.c",
+    "output": "lib/common/3d47a30@@common@sta/l2p.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/fgen/d6a69e1@@ften@sta -Ilib/fgen -I../lib/fgen -Ilib/common -I../lib/common -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -MD -MQ 'lib/fgen/d6a69e1@@ften@sta/fgen.c.o' -MF 'lib/fgen/d6a69e1@@ften@sta/fgen.c.o.d' -o 'lib/fgen/d6a69e1@@ften@sta/fgen.c.o' -c ../lib/fgen/fgen.c",
+    "file": "../lib/fgen/fgen.c",
+    "output": "lib/fgen/d6a69e1@@ften@sta/fgen.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/fgen/d6a69e1@@ften@sta -Ilib/fgen -I../lib/fgen -Ilib/common -I../lib/common -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -MD -MQ 'lib/fgen/d6a69e1@@ften@sta/parse.c.o' -MF 'lib/fgen/d6a69e1@@ften@sta/parse.c.o.d' -o 'lib/fgen/d6a69e1@@ften@sta/parse.c.o' -c ../lib/fgen/parse.c",
+    "file": "../lib/fgen/parse.c",
+    "output": "lib/fgen/d6a69e1@@ften@sta/parse.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/fgen/d6a69e1@@ften@sta -Ilib/fgen -I../lib/fgen -Ilib/common -I../lib/common -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -MD -MQ 'lib/fgen/d6a69e1@@ften@sta/unparse.c.o' -MF 'lib/fgen/d6a69e1@@ften@sta/unparse.c.o.d' -o 'lib/fgen/d6a69e1@@ften@sta/unparse.c.o' -c ../lib/fgen/unparse.c",
+    "file": "../lib/fgen/unparse.c",
+    "output": "lib/fgen/d6a69e1@@ften@sta/unparse.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/utils/4da8951@@utils@sta -Ilib/utils -I../lib/utils -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/utils/4da8951@@utils@sta/_atoip.c.o' -MF 'lib/utils/4da8951@@utils@sta/_atoip.c.o.d' -o 'lib/utils/4da8951@@utils@sta/_atoip.c.o' -c ../lib/utils/_atoip.c",
+    "file": "../lib/utils/_atoip.c",
+    "output": "lib/utils/4da8951@@utils@sta/_atoip.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/utils/4da8951@@utils@sta -Ilib/utils -I../lib/utils -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/utils/4da8951@@utils@sta/portlist.c.o' -MF 'lib/utils/4da8951@@utils@sta/portlist.c.o.d' -o 'lib/utils/4da8951@@utils@sta/portlist.c.o' -c ../lib/utils/portlist.c",
+    "file": "../lib/utils/portlist.c",
+    "output": "lib/utils/4da8951@@utils@sta/portlist.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/utils/4da8951@@utils@sta -Ilib/utils -I../lib/utils -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/utils/4da8951@@utils@sta/heap.c.o' -MF 'lib/utils/4da8951@@utils@sta/heap.c.o.d' -o 'lib/utils/4da8951@@utils@sta/heap.c.o' -c ../lib/utils/heap.c",
+    "file": "../lib/utils/heap.c",
+    "output": "lib/utils/4da8951@@utils@sta/heap.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/vec/bab47a5@@vec@sta -Ilib/vec -I../lib/vec -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/vec/bab47a5@@vec@sta/vec.c.o' -MF 'lib/vec/bab47a5@@vec@sta/vec.c.o.d' -o 'lib/vec/bab47a5@@vec@sta/vec.c.o' -c ../lib/vec/vec.c",
+    "file": "../lib/vec/vec.c",
+    "output": "lib/vec/bab47a5@@vec@sta/vec.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/plugin/5fdc178@@plugin@sta -Ilib/plugin -I../lib/plugin -Ilib/common -I../lib/common -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/plugin/5fdc178@@plugin@sta/plugin.c.o' -MF 'lib/plugin/5fdc178@@plugin@sta/plugin.c.o.d' -o 'lib/plugin/5fdc178@@plugin@sta/plugin.c.o' -c ../lib/plugin/plugin.c",
+    "file": "../lib/plugin/plugin.c",
+    "output": "lib/plugin/5fdc178@@plugin@sta/plugin.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_auto_complete.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_auto_complete.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_auto_complete.c.o' -c ../lib/cli/cli_auto_complete.c",
+    "file": "../lib/cli/cli_auto_complete.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_auto_complete.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli.c.o' -c ../lib/cli/cli.c",
+    "file": "../lib/cli/cli.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_cmap.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_cmap.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_cmap.c.o' -c ../lib/cli/cli_cmap.c",
+    "file": "../lib/cli/cli_cmap.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_cmap.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_cmds.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_cmds.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_cmds.c.o' -c ../lib/cli/cli_cmds.c",
+    "file": "../lib/cli/cli_cmds.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_cmds.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_env.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_env.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_env.c.o' -c ../lib/cli/cli_env.c",
+    "file": "../lib/cli/cli_env.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_env.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_file.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_file.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_file.c.o' -c ../lib/cli/cli_file.c",
+    "file": "../lib/cli/cli_file.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_file.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_gapbuf.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_gapbuf.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_gapbuf.c.o' -c ../lib/cli/cli_gapbuf.c",
+    "file": "../lib/cli/cli_gapbuf.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_gapbuf.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_help.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_help.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_help.c.o' -c ../lib/cli/cli_help.c",
+    "file": "../lib/cli/cli_help.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_help.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_history.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_history.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_history.c.o' -c ../lib/cli/cli_history.c",
+    "file": "../lib/cli/cli_history.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_history.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_input.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_input.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_input.c.o' -c ../lib/cli/cli_input.c",
+    "file": "../lib/cli/cli_input.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_input.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_map.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_map.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_map.c.o' -c ../lib/cli/cli_map.c",
+    "file": "../lib/cli/cli_map.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_map.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_scrn.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_scrn.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_scrn.c.o' -c ../lib/cli/cli_scrn.c",
+    "file": "../lib/cli/cli_scrn.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_scrn.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_search.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_search.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_search.c.o' -c ../lib/cli/cli_search.c",
+    "file": "../lib/cli/cli_search.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_search.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/cli/ec45a30@@cli@sta -Ilib/cli -I../lib/cli -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -include rte_config.h -march=native -MD -MQ 'lib/cli/ec45a30@@cli@sta/cli_vt100.c.o' -MF 'lib/cli/ec45a30@@cli@sta/cli_vt100.c.o.d' -o 'lib/cli/ec45a30@@cli@sta/cli_vt100.c.o' -c ../lib/cli/cli_vt100.c",
+    "file": "../lib/cli/cli_vt100.c",
+    "output": "lib/cli/ec45a30@@cli@sta/cli_vt100.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Ilib/lua/0dcce98@@lua@sta -Ilib/lua -I../lib/lua -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -fPIC -MD -MQ 'lib/lua/0dcce98@@lua@sta/lua_config.c.o' -MF 'lib/lua/0dcce98@@lua@sta/lua_config.c.o.d' -o 'lib/lua/0dcce98@@lua@sta/lua_config.c.o' -c ../lib/lua/lua_config.c",
+    "file": "../lib/lua/lua_config.c",
+    "output": "lib/lua/0dcce98@@lua@sta/lua_config.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/cli-functions.c.o' -MF 'app/a172ced@@pktgen@exe/cli-functions.c.o.d' -o 'app/a172ced@@pktgen@exe/cli-functions.c.o' -c ../app/cli-functions.c",
+    "file": "../app/cli-functions.c",
+    "output": "app/a172ced@@pktgen@exe/cli-functions.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/lpktgenlib.c.o' -MF 'app/a172ced@@pktgen@exe/lpktgenlib.c.o.d' -o 'app/a172ced@@pktgen@exe/lpktgenlib.c.o' -c ../app/lpktgenlib.c",
+    "file": "../app/lpktgenlib.c",
+    "output": "app/a172ced@@pktgen@exe/lpktgenlib.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-cmds.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-cmds.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-cmds.c.o' -c ../app/pktgen-cmds.c",
+    "file": "../app/pktgen-cmds.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-cmds.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen.c.o' -c ../app/pktgen.c",
+    "file": "../app/pktgen.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-cfg.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-cfg.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-cfg.c.o' -c ../app/pktgen-cfg.c",
+    "file": "../app/pktgen-cfg.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-cfg.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-main.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-main.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-main.c.o' -c ../app/pktgen-main.c",
+    "file": "../app/pktgen-main.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-main.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-pcap.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-pcap.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-pcap.c.o' -c ../app/pktgen-pcap.c",
+    "file": "../app/pktgen-pcap.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-pcap.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-range.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-range.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-range.c.o' -c ../app/pktgen-range.c",
+    "file": "../app/pktgen-range.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-range.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-cpu.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-cpu.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-cpu.c.o' -c ../app/pktgen-cpu.c",
+    "file": "../app/pktgen-cpu.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-cpu.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-seq.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-seq.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-seq.c.o' -c ../app/pktgen-seq.c",
+    "file": "../app/pktgen-seq.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-seq.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-dump.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-dump.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-dump.c.o' -c ../app/pktgen-dump.c",
+    "file": "../app/pktgen-dump.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-dump.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-capture.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-capture.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-capture.c.o' -c ../app/pktgen-capture.c",
+    "file": "../app/pktgen-capture.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-capture.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-stats.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-stats.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-stats.c.o' -c ../app/pktgen-stats.c",
+    "file": "../app/pktgen-stats.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-stats.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-port-cfg.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-port-cfg.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-port-cfg.c.o' -c ../app/pktgen-port-cfg.c",
+    "file": "../app/pktgen-port-cfg.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-port-cfg.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-ipv6.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-ipv6.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-ipv6.c.o' -c ../app/pktgen-ipv6.c",
+    "file": "../app/pktgen-ipv6.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-ipv6.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-ipv4.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-ipv4.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-ipv4.c.o' -c ../app/pktgen-ipv4.c",
+    "file": "../app/pktgen-ipv4.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-ipv4.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-arp.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-arp.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-arp.c.o' -c ../app/pktgen-arp.c",
+    "file": "../app/pktgen-arp.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-arp.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-gre.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-gre.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-gre.c.o' -c ../app/pktgen-gre.c",
+    "file": "../app/pktgen-gre.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-gre.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-ether.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-ether.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-ether.c.o' -c ../app/pktgen-ether.c",
+    "file": "../app/pktgen-ether.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-ether.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-tcp.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-tcp.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-tcp.c.o' -c ../app/pktgen-tcp.c",
+    "file": "../app/pktgen-tcp.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-tcp.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-udp.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-udp.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-udp.c.o' -c ../app/pktgen-udp.c",
+    "file": "../app/pktgen-udp.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-udp.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-vlan.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-vlan.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-vlan.c.o' -c ../app/pktgen-vlan.c",
+    "file": "../app/pktgen-vlan.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-vlan.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-random.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-random.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-random.c.o' -c ../app/pktgen-random.c",
+    "file": "../app/pktgen-random.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-random.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-display.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-display.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-display.c.o' -c ../app/pktgen-display.c",
+    "file": "../app/pktgen-display.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-display.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-log.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-log.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-log.c.o' -c ../app/pktgen-log.c",
+    "file": "../app/pktgen-log.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-log.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-gtpu.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-gtpu.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-gtpu.c.o' -c ../app/pktgen-gtpu.c",
+    "file": "../app/pktgen-gtpu.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-gtpu.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-latency.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-latency.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-latency.c.o' -c ../app/pktgen-latency.c",
+    "file": "../app/pktgen-latency.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-latency.c.o"
+  },
+  {
+    "directory": "/root/dpdk21/Pktgen-DPDK/Builddir",
+    "command": "cc -Iapp/a172ced@@pktgen@exe -Iapp -I../app -Ilib/common -I../lib/common -Ilib/utils -I../lib/utils -Ilib/vec -I../lib/vec -Ilib/plugin -I../lib/plugin -Ilib/cli -I../lib/cli -Ilib/lua -I../lib/lua -I/usr/local/include -I/usr/include/libnl3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -O3 -march=native -mavx -mavx2 -DALLOW_EXPERIMENTAL_API -D_GNU_SOURCE -Wno-pedantic -Wno-format-truncation -pthread -include rte_config.h -march=native '-D__PROJECT_VERSION=\"21.11.0\"' -MD -MQ 'app/a172ced@@pktgen@exe/pktgen-rate.c.o' -MF 'app/a172ced@@pktgen@exe/pktgen-rate.c.o.d' -o 'app/a172ced@@pktgen@exe/pktgen-rate.c.o' -c ../app/pktgen-rate.c",
+    "file": "../app/pktgen-rate.c",
+    "output": "app/a172ced@@pktgen@exe/pktgen-rate.c.o"
+  }
+]
